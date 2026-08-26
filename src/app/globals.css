@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #FEF7F0;
+  --foreground: #171717;
+  --primary: #3f2b22;
+  --accent-red: #E85A5F;
+  --accent-pink: #FFB6B9;
+}
+
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-accent-red: var(--accent-red)
+}
+
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.font-merienda {
+  font-family: 'Merienda', cursive;
+}
+
+button{
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
